@@ -40,7 +40,7 @@ class CharacterWidget extends StatelessWidget {
           Align(
             alignment: Alignment(0, -0.4),
             child: Hero(
-              tag: "image-${character[0].imagePath}",
+              tag: "image-${character[0].name}",
               child: Image.asset(
                 character[0].imagePath,
                 height: screenheight * 0.50,
